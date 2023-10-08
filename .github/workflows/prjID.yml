@@ -1,4 +1,4 @@
-name: Java CI
+name: getStagingProfile
 
 on: [push, pull_request]
 
@@ -16,4 +16,4 @@ jobs:
         java-version: 17
         distribution: 'liberica'
     - name: Build with Gradle
-      run: ./gradlew gradlew getStagingProfile
+      run: ./gradlew getStagingProfile
